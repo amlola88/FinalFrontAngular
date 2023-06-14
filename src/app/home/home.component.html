@@ -1,0 +1,29 @@
+<app-menu></app-menu>
+<section class="banner text-center text-white fw-bold">
+    <h3>Compumundo Hipermegared SA</h3>
+    <h4>Medellín</h4>
+</section>
+<app-institucional></app-institucional>
+<section class="banner2">    
+</section>
+<section>
+    <div class="container my-5">
+        <div class="row row-cols-1 row-cols-md-2 g-5">
+            <div class="col" *ngFor="let mercancia of mercancias">
+                <div class="card h-100 shadow p-4">
+                    <h1>Nombre:{{mercancia.nombre}} </h1>
+                    <h3>Descripcion:{{mercancia.descripcion}} </h3>
+                    <h5>Volumen:{{mercancia.volumen}} </h5>
+                    <h6>Zona:{{mercancia.zona.nombre}} </h6>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<section>
+    <app-formulario></app-formulario>
+<section>
+    <app-footer></app-footer>
+</section>    
+</section>
