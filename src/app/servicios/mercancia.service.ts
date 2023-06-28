@@ -10,8 +10,8 @@ export class MercanciaService {
   constructor(public servicio:HttpClient) { }
 
   public registrarMercancia(){}
-  public buscarMercancia():Observable<any>{
-    let url="http://localhost:8080/api/v1/mercancias"
+  public buscarMercancias():Observable<any>{
+    let url="http://localhost:8081/api/v1/mercancias"
     return this.servicio.get(url)
   }
 }

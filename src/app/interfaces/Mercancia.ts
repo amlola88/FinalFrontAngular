@@ -1,11 +1,10 @@
-import {Zona} from "./Zona";
+
 
 export interface Mercancia{
     id:number,
-    nombre: string,
+    nombres: string,
     descripcion:string,
-    fecha:string,
+    fechaDeEntrada:string,
     motivoDevolucion:string,
-    volumen:string,
-    zona:Zona    
+    volumen:number
 }

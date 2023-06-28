@@ -11,7 +11,7 @@ export class HomeComponent {
   public mercancias:Mercancia[]=[]
  
   public constructor (public peticion:MercanciaService){
-    this.peticion.buscarMercancia()
+    this.peticion.buscarMercancias()
     .subscribe((respuesta)=>{
     console.log(respuesta)
     this.mercancias=respuesta
