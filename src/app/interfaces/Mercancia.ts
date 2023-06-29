@@ -2,7 +2,7 @@
 
 export interface Mercancia{
     id:number,
-    nombres: string,
+    nombre: string,
     descripcion:string,
     fechaDeEntrada:string,
     motivoDevolucion:string,
