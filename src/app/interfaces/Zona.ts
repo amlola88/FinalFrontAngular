@@ -1,8 +1,9 @@
+import { Mercancia } from "./Mercancia";
+
 
 export interface Zona{
     id:number,
     nombre: string,
-    tamaño:string,
-    volumenZona:string,
-        
+    volumenZona:number,
+    mercancia:Mercancia
 }

@@ -19,8 +19,7 @@ export class FormularioComponent {
       descripcion:[''],
       fecha:[''],
       motivoDevolucion:[''],
-      volumen:[''],
-      zona:['']
+      volumen:['']
     })
   }
 
